@@ -198,17 +198,20 @@ a {
 #destination {
   margin-bottom: 100px;
 }
-#destination p{
-  width: 620px; 
+
+#destination p {
+  width: 620px;
   margin: 24px auto;
 }
-.dest_item{
+
+.dest_item {
   margin: 24px 0 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.dest_image img{
+
+.dest_image img {
   max-width: 97%;
   object-fit: cover;
 }
@@ -217,6 +220,7 @@ a {
   position: relative;
   text-align: center;
 }
+
 .dest_name {
   position: absolute;
   top: 50%;
@@ -228,39 +232,121 @@ a {
 }
 
 /* =========================Service Part Css============================= */
-#service{
+#service {
   margin-bottom: 100px;
 }
-#service .common_title_p{
+
+#service .common_title_p {
   width: 640px;
   margin: 24px auto;
 }
-.service_card{
+
+.service_card {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   gap: 15px;
 }
 
-.card_item{
+.card_item {
   padding: 36px 40px 36px 36px;
   border-radius: 16px;
-border: 1px solid rgba(251, 181, 99, 0.20);
-background: rgba(251, 181, 99, 0.05);
+  border: 1px solid rgba(251, 181, 99, 0.20);
+  background: rgba(251, 181, 99, 0.05);
 }
-.card_item:nth-child(2){
-border: 1px solid rgba(41, 206, 246, 0.20);
-background: rgba(41, 206, 246, 0.05);
+
+.card_item:nth-child(2) {
+  border: 1px solid rgba(41, 206, 246, 0.20);
+  background: rgba(41, 206, 246, 0.05);
 }
-.card_item h3{
+
+.card_item h3 {
   color: #131318;
-font-size: 24px;
-font-weight: 800;
-padding: 32px 0 16px;
+  font-size: 24px;
+  font-weight: 800;
+  padding: 32px 0 16px;
 }
-.card_item p{
+
+.card_item p {
   width: 460px;
-color: #131318;
-font-size: 16px;
-font-weight: 400;
+  color: #131318;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/* --------------------------Deals & Discount Par Css--------------------- */
+#deals {
+  margin-bottom: 100px;
+}
+
+#deals .common_title_p {
+  width: 515px;
+  margin: 24px auto;
+}
+
+.deal_discounts {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.discount1 {
+  background: url('../Images/Group\ 39.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 56px 56px 56px 0;
+  border-radius: 16px;
+  display: flex;
+  justify-content: end;
+}
+
+.deals_details {
+  padding: 50px 0 50px 50px;
+  border-radius: 16px;
+  border: 2px solid #FFF;
+  background: rgba(255, 255, 255, 0.80);
+  backdrop-filter: blur(2.5px);
+  color: #5A5A5D;
+  width: fit-content;
+
+}
+
+.deals_info {
+  width: 500px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.deals_info i {
+  color: #FF5400;
+}
+
+.deals_details h3 {
+  padding: 26px 0 16px;
+  color: #131318;
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.deals_details p {
+  width: 460px;
+}
+
+.price_tag {
+  padding: 16px 0px 0;
+  color: #FF5400;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.discount2 {
+  background: url('../Images/Group\ 40.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 56px 0px 56px 56px;
+  border-radius: 16px;
+  display: flex;
 }
