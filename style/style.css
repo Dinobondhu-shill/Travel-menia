@@ -20,11 +20,14 @@ a {
 }
 
 .container {
-  padding: 50px 120px;
+  padding: 0 120px;
 }
+
+.title_p {}
 
 /* =====================Nav Part Css=============== */
 .navigation {
+  padding-top: 50px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -62,4 +65,71 @@ a {
 
 .nav_link ul li a:hover {
   color: #FF5400;
+}
+
+/* =================Banner Part Css====================== */
+#banner {
+  margin: 50px 0 100px;
+  background: url('../Images/Banner.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+  border-radius: 16px;
+  padding: 100px 0;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.overly {
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.banner_text h1 {
+  text-align: center;
+  color: #FFF;
+  font-size: 64px;
+  font-weight: 800;
+}
+.banner_text p {
+  width: 640px;
+  text-align: center;
+  color: #FFF;
+  font-size: 16px;
+  font-weight: 400;
+}
+.banner_input {
+  width: fit-content;
+  padding: 16px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.30);
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.banner_input .input {
+  background-color: #fff;
+  padding: 16px;
+  border-radius: 8px;
+  color: rgba(19, 19, 24, 0.50);
+
+}
+.banner_input input {
+  border: none;
+}
+.banner_input a {
+  border-radius: 8px;
+  background: #FF5400;
+  padding: 16px 30px;
+  color: #fff;
 }
