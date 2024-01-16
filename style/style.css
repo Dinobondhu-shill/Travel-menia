@@ -353,7 +353,38 @@ a {
 
 .deal_discounts .common_button {
   width: fit-content;
-  margin: 0 auto;
+  margin: 24px auto 0;
+}
+
+/* -----------------------Feature Part Css------------------------ */
+#feature {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  margin-bottom: 100px;
+}
+
+.feature_content .common_title {
+  text-align: left;
+}
+
+.feature_content .common_title_p {
+  text-align: left;
+}
+
+.feature_content ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.feature_content ul li {
+  color: #424247;
+}
+
+.feature_content ul i {
+  color: #FF5400;
 }
 
 /* -----------------Place part css ---------------------- */
@@ -477,6 +508,7 @@ footer {
 .foot_logo {
   display: flex;
   align-items: center;
+  gap: 10px;
 }
 
 footer .common_title_p {
