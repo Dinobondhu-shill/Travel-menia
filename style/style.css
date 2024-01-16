@@ -151,11 +151,11 @@ a {
   padding: 16px;
   border-radius: 8px;
   color: rgba(19, 19, 24, 0.50);
-
 }
 
 .banner_input input {
   border: none;
+  outline: none;
 }
 
 .banner_input a {
@@ -349,4 +349,45 @@ a {
   padding: 56px 0px 56px 56px;
   border-radius: 16px;
   display: flex;
+}
+
+.deal_discounts .common_button {
+  width: fit-content;
+  margin: 0 auto;
+}
+
+/* -----------------Place part css ---------------------- */
+#place {
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.place_text {
+  max-width: 50%;
+}
+
+.place_text h2 {
+  text-align: left;
+}
+
+.place_text .common_title_p {
+  margin: 16px 0;
+  text-align: left;
+}
+
+.place_text ul {
+  padding-left: 20px;
+}
+
+.place_text li {
+  list-style: disc;
+  margin-bottom: 10px;
+}
+
+#place .place_video video {
+  max-width: 100%;
+  border-radius: 14px;
 }
