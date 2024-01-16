@@ -1,0 +1,198 @@
+/* --------------Responsive for Mobile or small Device */
+@media screen and (max-width: 575px) {
+
+  /* ----------Common Css------------- */
+  .container {
+    padding: 0 20px;
+  }
+
+  .common_title {
+    width: 100%;
+    font-size: 30px;
+    font-weight: 700;
+  }
+
+  .common_title_p {
+    width: 100%;
+    margin: 15px 0;
+  }
+
+  .common_button {
+    padding: 12px 30px;
+    ;
+    margin-top: 18px;
+    font-size: 16px;
+    font-weight: 700;
+  }
+
+  /* -----------------Header Part Css--------------- */
+  .navigation {
+    padding-top: 30px;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo {
+    gap: 10px;
+  }
+
+  .logo h3 {
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  .nav_link ul {
+    display: none;
+  }
+
+  .nav_link i {
+    display: inline-block;
+  }
+
+  /* =================Banner Part Css====================== */
+  #banner {
+    margin: 30px 0 50px;
+    gap: 28px;
+    border-radius: 16px;
+    padding: 50px 0;
+  }
+
+  .banner_text h1 {
+    width: 100%;
+    font-size: 34px;
+  }
+
+  .banner_text p {
+    width: 100%;
+    padding: 8px 0 30px;
+  }
+
+  .banner_input {
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .banner_input a {
+    width: 100%;
+    text-align: center;
+  }
+
+  /* =================Popular Tour Part Css================== */
+  #popular_tour {
+    margin-bottom: 50px;
+  }
+
+  .tour {
+    flex-direction: column;
+  }
+
+  .tour_details {
+    max-width: 100%;
+  }
+
+  .tour_details ul {
+    margin-top: 18px;
+  }
+
+  .tour_details a {
+    margin-bottom: 20px;
+  }
+
+  .tour_image img {
+    width: 100%;
+  }
+
+  /* ===========================Destination Part Css=================== */
+  #destination {
+    margin-bottom: 50px;
+  }
+
+  #destination p,
+  #service .common_title_p,
+  .card_item p,
+  #deals .common_title_p,
+  .deals_details p,
+  footer .common_title_p {
+    width: 100%;
+    margin: 14px 0;
+  }
+
+  .dest_item {
+    margin: 24px 0 20px;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  /* =========================Service Part Css============================= */
+  #service {
+    margin-bottom: 50px;
+  }
+
+  .service_card {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .card_item {
+    padding: 16px 20px 16px 16px;
+  }
+
+  /* --------------------------Deals & Discount Par Css--------------------- */
+  .discount1,
+  .discount2 {
+    padding: 110px 15px 15px;
+    justify-content: start;
+  }
+
+  .deals_details {
+    padding: 15px;
+  }
+
+  .deals_details h3 {
+    padding: 10px 0 10px;
+  }
+
+  .deals_info {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0px;
+    font-size: 16px;
+  }
+
+  /* -----------------------Feature Part Css------------------------ */
+  #feature {
+    flex-direction: column-reverse;
+    gap: 20px;
+    margin-bottom: 50px;
+  }
+
+  .feature_image img {
+    width: 100%;
+  }
+
+  /* -----------------Place part css ---------------------- */
+  #place {
+    margin-bottom: 50px;
+    flex-direction: column;
+  }
+
+  .place_text {
+    max-width: 100%;
+  }
+
+  /* -----------------Newsletter part css ---------------------- */
+  #newsletter {
+    padding-bottom: 50px;
+    flex-direction: column;
+  }
+
+  footer {
+    padding: 60px 0;
+  }
+
+  footer ul li a {
+    font-size: 20px;
+    font-weight: 600;
+  }
+}

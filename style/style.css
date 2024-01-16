@@ -80,7 +80,9 @@ a {
   align-items: center;
   gap: 35px;
 }
-
+.nav_link i{
+  display: none;
+}
 .nav_link ul li a {
   color: #424247;
   font-size: 18px;
@@ -416,6 +418,7 @@ a {
 .place_text li {
   list-style: disc;
   margin-bottom: 10px;
+  font-weight: 600;
 }
 
 #place .place_video video {
