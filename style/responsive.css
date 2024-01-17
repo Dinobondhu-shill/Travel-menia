@@ -1,4 +1,4 @@
-/* --------------Responsive for Mobile or small Device */
+/* --------------Responsive for Mobile or small Device -----------------------------*/
 @media screen and (max-width: 575px) {
 
   /* ----------Common Css------------- */
@@ -194,5 +194,54 @@
   footer ul li a {
     font-size: 20px;
     font-weight: 600;
+  }
+}
+
+/* --------------Responsive for Large Device -----------------------------*/
+@media (min-width: 900px) and (max-width: 1199.98px) {
+  .container {
+    padding: 0 70px;
+  }
+  .nav_link ul {
+    gap: 25px;
+  }
+  .banner_input {
+    padding: 20px;
+    gap: 10px;
+  }
+
+  .tour {
+    align-items: center;
+  }
+
+
+  .tour_image img {
+    width: 100%;
+    margin-left: 20px;
+  }
+
+  .tour_details ul {
+    margin-top: 20px;
+    padding-left: 15px;
+  }
+
+  .tour_details ul li {
+    margin: 0 0 5px;
+  }
+
+  .tour_details .common_button {
+    margin-top: 10px;
+  }
+
+  #feature {
+    gap: 30px;
+  }
+
+  .feature_image img {
+    width: 100%;
+  }
+
+  .newsletter_content {
+    padding: 18px 30px;
   }
 }
